@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B56959BA1CE57CA000AA60A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B56959B91CE57CA000AA60A9 /* main.m */; };
+		B56959BD1CE57CA000AA60A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B56959BC1CE57CA000AA60A9 /* AppDelegate.m */; };
+		B56959C01CE57CA000AA60A9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B56959BF1CE57CA000AA60A9 /* ViewController.m */; };
+		B56959C31CE57CA000AA60A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B56959C11CE57CA000AA60A9 /* Main.storyboard */; };
+		B56959C51CE57CA000AA60A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B56959C41CE57CA000AA60A9 /* Assets.xcassets */; };
+		B56959C81CE57CA000AA60A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B56959C61CE57CA000AA60A9 /* LaunchScreen.storyboard */; };
+		B56959D31CE57CA000AA60A9 /* QQLLiveCommentViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B56959D21CE57CA000AA60A9 /* QQLLiveCommentViewTests.m */; };
+		B56959DE1CE57CA000AA60A9 /* QQLLiveCommentViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B56959DD1CE57CA000AA60A9 /* QQLLiveCommentViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B56959CF1CE57CA000AA60A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B56959AD1CE57CA000AA60A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B56959B41CE57CA000AA60A9;
+			remoteInfo = QQLLiveCommentView;
+		};
+		B56959DA1CE57CA000AA60A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B56959AD1CE57CA000AA60A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B56959B41CE57CA000AA60A9;
+			remoteInfo = QQLLiveCommentView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B56959B51CE57CA000AA60A9 /* QQLLiveCommentView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QQLLiveCommentView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B56959B91CE57CA000AA60A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B56959BB1CE57CA000AA60A9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B56959BC1CE57CA000AA60A9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B56959BE1CE57CA000AA60A9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B56959BF1CE57CA000AA60A9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B56959C21CE57CA000AA60A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B56959C41CE57CA000AA60A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B56959C71CE57CA000AA60A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B56959C91CE57CA000AA60A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B56959CE1CE57CA000AA60A9 /* QQLLiveCommentViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QQLLiveCommentViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B56959D21CE57CA000AA60A9 /* QQLLiveCommentViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQLLiveCommentViewTests.m; sourceTree = "<group>"; };
+		B56959D41CE57CA000AA60A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B56959D91CE57CA000AA60A9 /* QQLLiveCommentViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QQLLiveCommentViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B56959DD1CE57CA000AA60A9 /* QQLLiveCommentViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQLLiveCommentViewUITests.m; sourceTree = "<group>"; };
+		B56959DF1CE57CA000AA60A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B56959B21CE57CA000AA60A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B56959CB1CE57CA000AA60A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B56959D61CE57CA000AA60A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B56959AC1CE57CA000AA60A9 = {
+			isa = PBXGroup;
+			children = (
+				B56959B71CE57CA000AA60A9 /* QQLLiveCommentView */,
+				B56959D11CE57CA000AA60A9 /* QQLLiveCommentViewTests */,
+				B56959DC1CE57CA000AA60A9 /* QQLLiveCommentViewUITests */,
+				B56959B61CE57CA000AA60A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B56959B61CE57CA000AA60A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B56959B51CE57CA000AA60A9 /* QQLLiveCommentView.app */,
+				B56959CE1CE57CA000AA60A9 /* QQLLiveCommentViewTests.xctest */,
+				B56959D91CE57CA000AA60A9 /* QQLLiveCommentViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B56959B71CE57CA000AA60A9 /* QQLLiveCommentView */ = {
+			isa = PBXGroup;
+			children = (
+				B56959BB1CE57CA000AA60A9 /* AppDelegate.h */,
+				B56959BC1CE57CA000AA60A9 /* AppDelegate.m */,
+				B56959BE1CE57CA000AA60A9 /* ViewController.h */,
+				B56959BF1CE57CA000AA60A9 /* ViewController.m */,
+				B56959C11CE57CA000AA60A9 /* Main.storyboard */,
+				B56959C41CE57CA000AA60A9 /* Assets.xcassets */,
+				B56959C61CE57CA000AA60A9 /* LaunchScreen.storyboard */,
+				B56959C91CE57CA000AA60A9 /* Info.plist */,
+				B56959B81CE57CA000AA60A9 /* Supporting Files */,
+			);
+			path = QQLLiveCommentView;
+			sourceTree = "<group>";
+		};
+		B56959B81CE57CA000AA60A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B56959B91CE57CA000AA60A9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B56959D11CE57CA000AA60A9 /* QQLLiveCommentViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				B56959D21CE57CA000AA60A9 /* QQLLiveCommentViewTests.m */,
+				B56959D41CE57CA000AA60A9 /* Info.plist */,
+			);
+			path = QQLLiveCommentViewTests;
+			sourceTree = "<group>";
+		};
+		B56959DC1CE57CA000AA60A9 /* QQLLiveCommentViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B56959DD1CE57CA000AA60A9 /* QQLLiveCommentViewUITests.m */,
+				B56959DF1CE57CA000AA60A9 /* Info.plist */,
+			);
+			path = QQLLiveCommentViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B56959B41CE57CA000AA60A9 /* QQLLiveCommentView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B56959E21CE57CA000AA60A9 /* Build configuration list for PBXNativeTarget "QQLLiveCommentView" */;
+			buildPhases = (
+				B56959B11CE57CA000AA60A9 /* Sources */,
+				B56959B21CE57CA000AA60A9 /* Frameworks */,
+				B56959B31CE57CA000AA60A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QQLLiveCommentView;
+			productName = QQLLiveCommentView;
+			productReference = B56959B51CE57CA000AA60A9 /* QQLLiveCommentView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B56959CD1CE57CA000AA60A9 /* QQLLiveCommentViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B56959E51CE57CA000AA60A9 /* Build configuration list for PBXNativeTarget "QQLLiveCommentViewTests" */;
+			buildPhases = (
+				B56959CA1CE57CA000AA60A9 /* Sources */,
+				B56959CB1CE57CA000AA60A9 /* Frameworks */,
+				B56959CC1CE57CA000AA60A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B56959D01CE57CA000AA60A9 /* PBXTargetDependency */,
+			);
+			name = QQLLiveCommentViewTests;
+			productName = QQLLiveCommentViewTests;
+			productReference = B56959CE1CE57CA000AA60A9 /* QQLLiveCommentViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B56959D81CE57CA000AA60A9 /* QQLLiveCommentViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B56959E81CE57CA000AA60A9 /* Build configuration list for PBXNativeTarget "QQLLiveCommentViewUITests" */;
+			buildPhases = (
+				B56959D51CE57CA000AA60A9 /* Sources */,
+				B56959D61CE57CA000AA60A9 /* Frameworks */,
+				B56959D71CE57CA000AA60A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B56959DB1CE57CA000AA60A9 /* PBXTargetDependency */,
+			);
+			name = QQLLiveCommentViewUITests;
+			productName = QQLLiveCommentViewUITests;
+			productReference = B56959D91CE57CA000AA60A9 /* QQLLiveCommentViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B56959AD1CE57CA000AA60A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "卢政";
+				TargetAttributes = {
+					B56959B41CE57CA000AA60A9 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					B56959CD1CE57CA000AA60A9 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = B56959B41CE57CA000AA60A9;
+					};
+					B56959D81CE57CA000AA60A9 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = B56959B41CE57CA000AA60A9;
+					};
+				};
+			};
+			buildConfigurationList = B56959B01CE57CA000AA60A9 /* Build configuration list for PBXProject "QQLLiveCommentView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B56959AC1CE57CA000AA60A9;
+			productRefGroup = B56959B61CE57CA000AA60A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B56959B41CE57CA000AA60A9 /* QQLLiveCommentView */,
+				B56959CD1CE57CA000AA60A9 /* QQLLiveCommentViewTests */,
+				B56959D81CE57CA000AA60A9 /* QQLLiveCommentViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B56959B31CE57CA000AA60A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B56959C81CE57CA000AA60A9 /* LaunchScreen.storyboard in Resources */,
+				B56959C51CE57CA000AA60A9 /* Assets.xcassets in Resources */,
+				B56959C31CE57CA000AA60A9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B56959CC1CE57CA000AA60A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B56959D71CE57CA000AA60A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B56959B11CE57CA000AA60A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B56959C01CE57CA000AA60A9 /* ViewController.m in Sources */,
+				B56959BD1CE57CA000AA60A9 /* AppDelegate.m in Sources */,
+				B56959BA1CE57CA000AA60A9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B56959CA1CE57CA000AA60A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B56959D31CE57CA000AA60A9 /* QQLLiveCommentViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B56959D51CE57CA000AA60A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B56959DE1CE57CA000AA60A9 /* QQLLiveCommentViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B56959D01CE57CA000AA60A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B56959B41CE57CA000AA60A9 /* QQLLiveCommentView */;
+			targetProxy = B56959CF1CE57CA000AA60A9 /* PBXContainerItemProxy */;
+		};
+		B56959DB1CE57CA000AA60A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B56959B41CE57CA000AA60A9 /* QQLLiveCommentView */;
+			targetProxy = B56959DA1CE57CA000AA60A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B56959C11CE57CA000AA60A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B56959C21CE57CA000AA60A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B56959C61CE57CA000AA60A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B56959C71CE57CA000AA60A9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B56959E01CE57CA000AA60A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B56959E11CE57CA000AA60A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B56959E31CE57CA000AA60A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QQLLiveCommentView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.luzheng1208.QQLLiveCommentView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B56959E41CE57CA000AA60A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QQLLiveCommentView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.luzheng1208.QQLLiveCommentView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B56959E61CE57CA000AA60A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QQLLiveCommentViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.luzheng1208.QQLLiveCommentViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QQLLiveCommentView.app/QQLLiveCommentView";
+			};
+			name = Debug;
+		};
+		B56959E71CE57CA000AA60A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QQLLiveCommentViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.luzheng1208.QQLLiveCommentViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QQLLiveCommentView.app/QQLLiveCommentView";
+			};
+			name = Release;
+		};
+		B56959E91CE57CA000AA60A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QQLLiveCommentViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.luzheng1208.QQLLiveCommentViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QQLLiveCommentView;
+			};
+			name = Debug;
+		};
+		B56959EA1CE57CA000AA60A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QQLLiveCommentViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.luzheng1208.QQLLiveCommentViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QQLLiveCommentView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B56959B01CE57CA000AA60A9 /* Build configuration list for PBXProject "QQLLiveCommentView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B56959E01CE57CA000AA60A9 /* Debug */,
+				B56959E11CE57CA000AA60A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B56959E21CE57CA000AA60A9 /* Build configuration list for PBXNativeTarget "QQLLiveCommentView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B56959E31CE57CA000AA60A9 /* Debug */,
+				B56959E41CE57CA000AA60A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B56959E51CE57CA000AA60A9 /* Build configuration list for PBXNativeTarget "QQLLiveCommentViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B56959E61CE57CA000AA60A9 /* Debug */,
+				B56959E71CE57CA000AA60A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B56959E81CE57CA000AA60A9 /* Build configuration list for PBXNativeTarget "QQLLiveCommentViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B56959E91CE57CA000AA60A9 /* Debug */,
+				B56959EA1CE57CA000AA60A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B56959AD1CE57CA000AA60A9 /* Project object */;
+}
