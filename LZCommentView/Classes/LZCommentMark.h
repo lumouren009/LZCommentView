@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface LZCommentMark : UIView
+@property (nonatomic, readonly, strong) UIImageView *imageView;
+
 - (instancetype)initWithFrame:(CGRect)frame image:(UIImage*)image;
 @end

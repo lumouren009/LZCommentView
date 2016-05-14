@@ -28,12 +28,15 @@
 }
 
 - (void)addCells {
-	UIImage *profileImage = [UIImage imageNamed:@"twitterProfile.jpeg"];
 	NSString *name = @"yoavlt";
+	UIImage *profileImage = [UIImage imageNamed:@"twitterProfile.jpeg"];
+	
 	__weak __typeof(self) weakSelf = self;
 	[self dispatchOnMainThread:1 block:^{
 		NSString *comment = @"Awesome!";
-		[weakSelf.commentView addCellwithProfileImage:profileImage name:name comment:comment];
+		LZCommentCell * cell =
+		[weakSelf.commentView addCellwithProfileImage:nil name:name comment:comment];
+		[cell.mark.imageView setImage:[UIImage imageNamed:@"twitterProfile.jpeg"]];
 	}];
 	
 	[self dispatchOnMainThread:2 block:^{

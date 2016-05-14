@@ -7,8 +7,6 @@
 //
 
 #import "LZCommentView.h"
-#import "LZCommentConfig.h"
-#import "LZCommentCell.h"
 
 @interface LZCommentView ()
 @property (nonatomic, strong) LZCommentConfig *config;
@@ -74,12 +72,13 @@
 	
 }
 
-- (void)addCellwithProfileImage: (UIImage*)profileImage name:(NSString*)name comment:(NSString*)comment {
+- (LZCommentCell*)addCellwithProfileImage: (UIImage*)profileImage name:(NSString*)name comment:(NSString*)comment {
 	NSCAssert(_config, @"config property should not be nil");
 	
 	CGRect rect = CGRectZero;
 	LZCommentCell *cell = [[LZCommentCell alloc]initWithFrame:rect profileImage:profileImage name:name comment:comment config:_config];
 	[self addCell:cell];
+	return cell;
 }
 
 

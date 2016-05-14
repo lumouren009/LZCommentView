@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "LZCommentCell.h"
+#import "LZCommentConfig.h"
+#import "LZCommentMark.h"
 
-@class LZCommentCell;
-@class LZCommentConfig;
 @interface LZCommentView : UIView
 - (void)setConfig:(LZCommentConfig*)config;
-- (void)addCellwithProfileImage: (UIImage*)profileImage name:(NSString*)name comment:(NSString*)comment;
+- (LZCommentCell*)addCellwithProfileImage: (UIImage*)profileImage name:(NSString*)name comment:(NSString*)comment;
 @end

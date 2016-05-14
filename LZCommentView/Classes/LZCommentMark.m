@@ -8,9 +8,11 @@
 
 #import "LZCommentMark.h"
 
-@implementation LZCommentMark {
-	UIImageView *_imageView;
-}
+@interface LZCommentMark ()
+@property (nonatomic, readwrite, strong) UIImageView *imageView;
+@end
+
+@implementation LZCommentMark 
 
 - (instancetype)initWithFrame:(CGRect)frame image:(UIImage *)image {
 	if (self = [super initWithFrame:frame]) {
@@ -26,12 +28,7 @@
 	_imageView.layer.cornerRadius = 0.5 * _imageView.frame.size.height;
 	[_imageView setClipsToBounds:YES];
 	[self addSubview:_imageView];
-	
-//	UIView *colorView = [[UIView alloc]initWithFrame:self.frame];
-//	UIColor *blue = [UIColor colorWithRed:0.12 green:0.59 blue:0.95 alpha:0.7];
-//	colorView.backgroundColor = blue;
-//	[self addSubview:colorView];
-	
+
 }
 
 @end
