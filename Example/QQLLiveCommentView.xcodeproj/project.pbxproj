@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3670BBC0308A1067362F7440 /* libPods-QQLLiveCommentView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D21B1F193AD83D45AACD869 /* libPods-QQLLiveCommentView.a */; };
+		40EEA70480D0A8FF0244667D /* libPods-QQLLiveCommentViewUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1FCD1D63B7FAEAB8C70AB87 /* libPods-QQLLiveCommentViewUITests.a */; };
+		7C026BC782EDEB896572B737 /* libPods-QQLLiveCommentViewTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F40670AC8E3EB8524294B15 /* libPods-QQLLiveCommentViewTests.a */; };
 		B56959BA1CE57CA000AA60A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B56959B91CE57CA000AA60A9 /* main.m */; };
 		B56959BD1CE57CA000AA60A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B56959BC1CE57CA000AA60A9 /* AppDelegate.m */; };
 		B56959C01CE57CA000AA60A9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B56959BF1CE57CA000AA60A9 /* ViewController.m */; };
@@ -15,10 +18,6 @@
 		B56959C81CE57CA000AA60A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B56959C61CE57CA000AA60A9 /* LaunchScreen.storyboard */; };
 		B56959D31CE57CA000AA60A9 /* QQLLiveCommentViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B56959D21CE57CA000AA60A9 /* QQLLiveCommentViewTests.m */; };
 		B56959DE1CE57CA000AA60A9 /* QQLLiveCommentViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B56959DD1CE57CA000AA60A9 /* QQLLiveCommentViewUITests.m */; };
-		B56959EE1CE57CDF00AA60A9 /* QQLCommentView.m in Sources */ = {isa = PBXBuildFile; fileRef = B56959ED1CE57CDF00AA60A9 /* QQLCommentView.m */; };
-		B56959F11CE57DAB00AA60A9 /* QQLCommentConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = B56959F01CE57DAB00AA60A9 /* QQLCommentConfig.m */; };
-		B56959F41CE583D300AA60A9 /* QQLCommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B56959F31CE583D300AA60A9 /* QQLCommentCell.m */; };
-		B56959F71CE597FC00AA60A9 /* QQLCommentMark.m in Sources */ = {isa = PBXBuildFile; fileRef = B56959F61CE597FC00AA60A9 /* QQLCommentMark.m */; };
 		B56959F91CE5A14900AA60A9 /* twitterProfile.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B56959F81CE5A14900AA60A9 /* twitterProfile.jpeg */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1EE4526756B8CCCF8BA1288D /* Pods-QQLLiveCommentViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QQLLiveCommentViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QQLLiveCommentViewTests/Pods-QQLLiveCommentViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		42EEFCCEF6AC19781372013C /* Pods-QQLLiveCommentViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QQLLiveCommentViewUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QQLLiveCommentViewUITests/Pods-QQLLiveCommentViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		51B604A4CC50BFD0761AB345 /* Pods-QQLLiveCommentViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QQLLiveCommentViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QQLLiveCommentViewTests/Pods-QQLLiveCommentViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		6D21B1F193AD83D45AACD869 /* libPods-QQLLiveCommentView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QQLLiveCommentView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F40670AC8E3EB8524294B15 /* libPods-QQLLiveCommentViewTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QQLLiveCommentViewTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B56959B51CE57CA000AA60A9 /* QQLLiveCommentView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QQLLiveCommentView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B56959B91CE57CA000AA60A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B56959BB1CE57CA000AA60A9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -56,15 +60,11 @@
 		B56959D91CE57CA000AA60A9 /* QQLLiveCommentViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QQLLiveCommentViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B56959DD1CE57CA000AA60A9 /* QQLLiveCommentViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQLLiveCommentViewUITests.m; sourceTree = "<group>"; };
 		B56959DF1CE57CA000AA60A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B56959EC1CE57CDF00AA60A9 /* QQLCommentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QQLCommentView.h; path = CommentView/QQLCommentView.h; sourceTree = "<group>"; };
-		B56959ED1CE57CDF00AA60A9 /* QQLCommentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QQLCommentView.m; path = CommentView/QQLCommentView.m; sourceTree = "<group>"; };
-		B56959EF1CE57DAB00AA60A9 /* QQLCommentConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QQLCommentConfig.h; path = CommentView/Utils/QQLCommentConfig.h; sourceTree = "<group>"; };
-		B56959F01CE57DAB00AA60A9 /* QQLCommentConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QQLCommentConfig.m; path = CommentView/Utils/QQLCommentConfig.m; sourceTree = "<group>"; };
-		B56959F21CE583D300AA60A9 /* QQLCommentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QQLCommentCell.h; path = CommentView/QQLCommentCell.h; sourceTree = "<group>"; };
-		B56959F31CE583D300AA60A9 /* QQLCommentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QQLCommentCell.m; path = CommentView/QQLCommentCell.m; sourceTree = "<group>"; };
-		B56959F51CE597FC00AA60A9 /* QQLCommentMark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QQLCommentMark.h; path = CommentView/QQLCommentMark.h; sourceTree = "<group>"; };
-		B56959F61CE597FC00AA60A9 /* QQLCommentMark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QQLCommentMark.m; path = CommentView/QQLCommentMark.m; sourceTree = "<group>"; };
 		B56959F81CE5A14900AA60A9 /* twitterProfile.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = twitterProfile.jpeg; sourceTree = "<group>"; };
+		BD80E7A55F751AAA8D176719 /* Pods-QQLLiveCommentViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QQLLiveCommentViewUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QQLLiveCommentViewUITests/Pods-QQLLiveCommentViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D7A7645B6B15F7076345876A /* Pods-QQLLiveCommentView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QQLLiveCommentView.release.xcconfig"; path = "Pods/Target Support Files/Pods-QQLLiveCommentView/Pods-QQLLiveCommentView.release.xcconfig"; sourceTree = "<group>"; };
+		E1FCD1D63B7FAEAB8C70AB87 /* libPods-QQLLiveCommentViewUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QQLLiveCommentViewUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF87E3177E603A6D6576F227 /* Pods-QQLLiveCommentView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QQLLiveCommentView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QQLLiveCommentView/Pods-QQLLiveCommentView.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3670BBC0308A1067362F7440 /* libPods-QQLLiveCommentView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C026BC782EDEB896572B737 /* libPods-QQLLiveCommentViewTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,12 +88,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40EEA70480D0A8FF0244667D /* libPods-QQLLiveCommentViewUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1712C435E727C021E30974E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D21B1F193AD83D45AACD869 /* libPods-QQLLiveCommentView.a */,
+				7F40670AC8E3EB8524294B15 /* libPods-QQLLiveCommentViewTests.a */,
+				E1FCD1D63B7FAEAB8C70AB87 /* libPods-QQLLiveCommentViewUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1B08AC7826110A277D753A9C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FF87E3177E603A6D6576F227 /* Pods-QQLLiveCommentView.debug.xcconfig */,
+				D7A7645B6B15F7076345876A /* Pods-QQLLiveCommentView.release.xcconfig */,
+				1EE4526756B8CCCF8BA1288D /* Pods-QQLLiveCommentViewTests.debug.xcconfig */,
+				51B604A4CC50BFD0761AB345 /* Pods-QQLLiveCommentViewTests.release.xcconfig */,
+				BD80E7A55F751AAA8D176719 /* Pods-QQLLiveCommentViewUITests.debug.xcconfig */,
+				42EEFCCEF6AC19781372013C /* Pods-QQLLiveCommentViewUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B56959AC1CE57CA000AA60A9 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +125,8 @@
 				B56959D11CE57CA000AA60A9 /* QQLLiveCommentViewTests */,
 				B56959DC1CE57CA000AA60A9 /* QQLLiveCommentViewUITests */,
 				B56959B61CE57CA000AA60A9 /* Products */,
+				1B08AC7826110A277D753A9C /* Pods */,
+				1712C435E727C021E30974E5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -115,7 +143,6 @@
 		B56959B71CE57CA000AA60A9 /* QQLLiveCommentView */ = {
 			isa = PBXGroup;
 			children = (
-				B56959EB1CE57CAC00AA60A9 /* CommentView */,
 				B56959BB1CE57CA000AA60A9 /* AppDelegate.h */,
 				B56959BC1CE57CA000AA60A9 /* AppDelegate.m */,
 				B56959BE1CE57CA000AA60A9 /* ViewController.h */,
@@ -156,21 +183,6 @@
 			path = QQLLiveCommentViewUITests;
 			sourceTree = "<group>";
 		};
-		B56959EB1CE57CAC00AA60A9 /* CommentView */ = {
-			isa = PBXGroup;
-			children = (
-				B56959EC1CE57CDF00AA60A9 /* QQLCommentView.h */,
-				B56959ED1CE57CDF00AA60A9 /* QQLCommentView.m */,
-				B56959EF1CE57DAB00AA60A9 /* QQLCommentConfig.h */,
-				B56959F01CE57DAB00AA60A9 /* QQLCommentConfig.m */,
-				B56959F21CE583D300AA60A9 /* QQLCommentCell.h */,
-				B56959F31CE583D300AA60A9 /* QQLCommentCell.m */,
-				B56959F51CE597FC00AA60A9 /* QQLCommentMark.h */,
-				B56959F61CE597FC00AA60A9 /* QQLCommentMark.m */,
-			);
-			name = CommentView;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -178,9 +190,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B56959E21CE57CA000AA60A9 /* Build configuration list for PBXNativeTarget "QQLLiveCommentView" */;
 			buildPhases = (
+				46A9121E1B04B06824452AC7 /* Check Pods Manifest.lock */,
 				B56959B11CE57CA000AA60A9 /* Sources */,
 				B56959B21CE57CA000AA60A9 /* Frameworks */,
 				B56959B31CE57CA000AA60A9 /* Resources */,
+				7A76413261D7B5DB8D340603 /* Embed Pods Frameworks */,
+				1B9A18AEFCDF801DCCBD1648 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -195,9 +210,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B56959E51CE57CA000AA60A9 /* Build configuration list for PBXNativeTarget "QQLLiveCommentViewTests" */;
 			buildPhases = (
+				C812B72C560205B8AF9AD3DA /* Check Pods Manifest.lock */,
 				B56959CA1CE57CA000AA60A9 /* Sources */,
 				B56959CB1CE57CA000AA60A9 /* Frameworks */,
 				B56959CC1CE57CA000AA60A9 /* Resources */,
+				5443B61841B7A3A555D8D011 /* Embed Pods Frameworks */,
+				D877C1F4BA177D4CE2F592CB /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -213,9 +231,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B56959E81CE57CA000AA60A9 /* Build configuration list for PBXNativeTarget "QQLLiveCommentViewUITests" */;
 			buildPhases = (
+				97811BC865FF7F57D04F963A /* Check Pods Manifest.lock */,
 				B56959D51CE57CA000AA60A9 /* Sources */,
 				B56959D61CE57CA000AA60A9 /* Frameworks */,
 				B56959D71CE57CA000AA60A9 /* Resources */,
+				B0DDFFC58B2AA6D85DF7E07B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -297,6 +317,129 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1B9A18AEFCDF801DCCBD1648 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QQLLiveCommentView/Pods-QQLLiveCommentView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46A9121E1B04B06824452AC7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5443B61841B7A3A555D8D011 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QQLLiveCommentViewTests/Pods-QQLLiveCommentViewTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A76413261D7B5DB8D340603 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QQLLiveCommentView/Pods-QQLLiveCommentView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97811BC865FF7F57D04F963A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B0DDFFC58B2AA6D85DF7E07B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QQLLiveCommentViewUITests/Pods-QQLLiveCommentViewUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C812B72C560205B8AF9AD3DA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D877C1F4BA177D4CE2F592CB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QQLLiveCommentViewTests/Pods-QQLLiveCommentViewTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B56959B11CE57CA000AA60A9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -304,11 +447,7 @@
 			files = (
 				B56959C01CE57CA000AA60A9 /* ViewController.m in Sources */,
 				B56959BD1CE57CA000AA60A9 /* AppDelegate.m in Sources */,
-				B56959F41CE583D300AA60A9 /* QQLCommentCell.m in Sources */,
-				B56959F11CE57DAB00AA60A9 /* QQLCommentConfig.m in Sources */,
 				B56959BA1CE57CA000AA60A9 /* main.m in Sources */,
-				B56959F71CE597FC00AA60A9 /* QQLCommentMark.m in Sources */,
-				B56959EE1CE57CDF00AA60A9 /* QQLCommentView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,8 +586,10 @@
 		};
 		B56959E31CE57CA000AA60A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF87E3177E603A6D6576F227 /* Pods-QQLLiveCommentView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				INFOPLIST_FILE = QQLLiveCommentView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.luzheng1208.QQLLiveCommentView;
@@ -458,8 +599,10 @@
 		};
 		B56959E41CE57CA000AA60A9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7A7645B6B15F7076345876A /* Pods-QQLLiveCommentView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				INFOPLIST_FILE = QQLLiveCommentView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.luzheng1208.QQLLiveCommentView;
@@ -469,6 +612,7 @@
 		};
 		B56959E61CE57CA000AA60A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EE4526756B8CCCF8BA1288D /* Pods-QQLLiveCommentViewTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = QQLLiveCommentViewTests/Info.plist;
@@ -481,6 +625,7 @@
 		};
 		B56959E71CE57CA000AA60A9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51B604A4CC50BFD0761AB345 /* Pods-QQLLiveCommentViewTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = QQLLiveCommentViewTests/Info.plist;
@@ -493,6 +638,7 @@
 		};
 		B56959E91CE57CA000AA60A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD80E7A55F751AAA8D176719 /* Pods-QQLLiveCommentViewUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = QQLLiveCommentViewUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -504,6 +650,7 @@
 		};
 		B56959EA1CE57CA000AA60A9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42EEFCCEF6AC19781372013C /* Pods-QQLLiveCommentViewUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = QQLLiveCommentViewUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -532,6 +679,7 @@
 				B56959E41CE57CA000AA60A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B56959E51CE57CA000AA60A9 /* Build configuration list for PBXNativeTarget "QQLLiveCommentViewTests" */ = {
 			isa = XCConfigurationList;
@@ -540,6 +688,7 @@
 				B56959E71CE57CA000AA60A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B56959E81CE57CA000AA60A9 /* Build configuration list for PBXNativeTarget "QQLLiveCommentViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -548,6 +697,7 @@
 				B56959EA1CE57CA000AA60A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
