@@ -4,11 +4,11 @@
 # use_frameworks!
 
 target 'QQLLiveCommentView' do
-pod 'QQLLiveCommentView', :path => '../'
+pod 'LZCommentView', :path => '../'
 end
 
 target 'QQLLiveCommentViewTests' do
-pod 'QQLLiveCommentView', :path => '../'
+pod 'LZCommentView', :path => '../'
 end
 
 target 'QQLLiveCommentViewUITests' do

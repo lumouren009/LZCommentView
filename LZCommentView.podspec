@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint QQLLiveCommentView.podspec' to ensure this is a
+#  Be sure to run `pod spec lint LZCommentView.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see http://docs.cocoapods.org/specification.html
@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "QQLLiveCommentView"
+  s.name         = "LZCommentView"
   s.version      = "0.0.1"
   s.summary      = "This is a Banana View"
 
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   TODO: Add long description of the pod here
                    DESC
 
-  s.homepage     = "https://github.com/lumouren009/QQLLiveCommentView"
+  s.homepage     = "https://github.com/lumouren009/LZCommentView"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/lumouren009/QQLLiveCommentView.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/lumouren009/LZCommentView.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "QQLLiveCommentView/Classes/**/*.{h,m}"
+  s.source_files  = "Classes", "LZCommentView/Classes/**/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
