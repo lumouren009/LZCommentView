@@ -7,8 +7,9 @@
 //
 
 #import "ViewController.h"
-
+#import "QQLCommentView.h"
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet QQLCommentView *commentView;
 
 @end
 
@@ -17,11 +18,58 @@
 - (void)viewDidLoad {
 	[super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+	[self addCells];
 }
 
 - (void)didReceiveMemoryWarning {
 	[super didReceiveMemoryWarning];
 	// Dispose of any resources that can be recreated.
 }
+
+- (void)addCells {
+	UIImage *profileImage = [UIImage imageNamed:@"twitterProfile.jpeg"];
+	NSString *name = @"yoavlt";
+	__weak __typeof(self) weakSelf = self;
+	[self dispatchOnMainThread:1 block:^{
+		NSString *comment = @"Awesome!";
+		[weakSelf.commentView addCellwithProfileImage:profileImage name:name comment:comment];
+	}];
+	
+	[self dispatchOnMainThread:2 block:^{
+		NSString *comment = @"Hooooo!";
+		[weakSelf.commentView addCellwithProfileImage:profileImage name:@"Alonsolu Alonsolu Alonsolu" comment:comment];
+	}];
+	
+	
+	[self dispatchOnMainThread:3 block:^{
+		NSString *comment = @"fdfaljdfldjfladsj dfajdslfjadsfja fadsflasdjfals!";
+		[weakSelf.commentView addCellwithProfileImage:profileImage name:name comment:comment];
+	}];
+	
+	[self dispatchOnMainThread:4 block:^{
+		NSString *comment = @"一二三四lsds dfsdl fddfjadl jdlfad!";
+		[weakSelf.commentView addCellwithProfileImage:profileImage name:name comment:comment];
+	}];
+	
+	
+}
+
+
+
+- (void)dispatchOnMainThread:(NSTimeInterval)delay block:(void(^)())block {
+	if (delay == 0) {
+		dispatch_async(dispatch_get_main_queue(), ^{
+			block();
+		});
+		return;
+	}
+	
+	dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(delay * (double)NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+		block();
+	});
+}
+
+
+
 
 @end

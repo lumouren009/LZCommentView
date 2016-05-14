@@ -15,6 +15,11 @@
 		B56959C81CE57CA000AA60A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B56959C61CE57CA000AA60A9 /* LaunchScreen.storyboard */; };
 		B56959D31CE57CA000AA60A9 /* QQLLiveCommentViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B56959D21CE57CA000AA60A9 /* QQLLiveCommentViewTests.m */; };
 		B56959DE1CE57CA000AA60A9 /* QQLLiveCommentViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B56959DD1CE57CA000AA60A9 /* QQLLiveCommentViewUITests.m */; };
+		B56959EE1CE57CDF00AA60A9 /* QQLCommentView.m in Sources */ = {isa = PBXBuildFile; fileRef = B56959ED1CE57CDF00AA60A9 /* QQLCommentView.m */; };
+		B56959F11CE57DAB00AA60A9 /* QQLCommentConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = B56959F01CE57DAB00AA60A9 /* QQLCommentConfig.m */; };
+		B56959F41CE583D300AA60A9 /* QQLCommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B56959F31CE583D300AA60A9 /* QQLCommentCell.m */; };
+		B56959F71CE597FC00AA60A9 /* QQLCommentMark.m in Sources */ = {isa = PBXBuildFile; fileRef = B56959F61CE597FC00AA60A9 /* QQLCommentMark.m */; };
+		B56959F91CE5A14900AA60A9 /* twitterProfile.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B56959F81CE5A14900AA60A9 /* twitterProfile.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,15 @@
 		B56959D91CE57CA000AA60A9 /* QQLLiveCommentViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QQLLiveCommentViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B56959DD1CE57CA000AA60A9 /* QQLLiveCommentViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQLLiveCommentViewUITests.m; sourceTree = "<group>"; };
 		B56959DF1CE57CA000AA60A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B56959EC1CE57CDF00AA60A9 /* QQLCommentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QQLCommentView.h; path = CommentView/QQLCommentView.h; sourceTree = "<group>"; };
+		B56959ED1CE57CDF00AA60A9 /* QQLCommentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QQLCommentView.m; path = CommentView/QQLCommentView.m; sourceTree = "<group>"; };
+		B56959EF1CE57DAB00AA60A9 /* QQLCommentConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QQLCommentConfig.h; path = CommentView/Utils/QQLCommentConfig.h; sourceTree = "<group>"; };
+		B56959F01CE57DAB00AA60A9 /* QQLCommentConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QQLCommentConfig.m; path = CommentView/Utils/QQLCommentConfig.m; sourceTree = "<group>"; };
+		B56959F21CE583D300AA60A9 /* QQLCommentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QQLCommentCell.h; path = CommentView/QQLCommentCell.h; sourceTree = "<group>"; };
+		B56959F31CE583D300AA60A9 /* QQLCommentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QQLCommentCell.m; path = CommentView/QQLCommentCell.m; sourceTree = "<group>"; };
+		B56959F51CE597FC00AA60A9 /* QQLCommentMark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QQLCommentMark.h; path = CommentView/QQLCommentMark.h; sourceTree = "<group>"; };
+		B56959F61CE597FC00AA60A9 /* QQLCommentMark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QQLCommentMark.m; path = CommentView/QQLCommentMark.m; sourceTree = "<group>"; };
+		B56959F81CE5A14900AA60A9 /* twitterProfile.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = twitterProfile.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +115,12 @@
 		B56959B71CE57CA000AA60A9 /* QQLLiveCommentView */ = {
 			isa = PBXGroup;
 			children = (
+				B56959EB1CE57CAC00AA60A9 /* CommentView */,
 				B56959BB1CE57CA000AA60A9 /* AppDelegate.h */,
 				B56959BC1CE57CA000AA60A9 /* AppDelegate.m */,
 				B56959BE1CE57CA000AA60A9 /* ViewController.h */,
 				B56959BF1CE57CA000AA60A9 /* ViewController.m */,
+				B56959F81CE5A14900AA60A9 /* twitterProfile.jpeg */,
 				B56959C11CE57CA000AA60A9 /* Main.storyboard */,
 				B56959C41CE57CA000AA60A9 /* Assets.xcassets */,
 				B56959C61CE57CA000AA60A9 /* LaunchScreen.storyboard */,
@@ -138,6 +154,21 @@
 				B56959DF1CE57CA000AA60A9 /* Info.plist */,
 			);
 			path = QQLLiveCommentViewUITests;
+			sourceTree = "<group>";
+		};
+		B56959EB1CE57CAC00AA60A9 /* CommentView */ = {
+			isa = PBXGroup;
+			children = (
+				B56959EC1CE57CDF00AA60A9 /* QQLCommentView.h */,
+				B56959ED1CE57CDF00AA60A9 /* QQLCommentView.m */,
+				B56959EF1CE57DAB00AA60A9 /* QQLCommentConfig.h */,
+				B56959F01CE57DAB00AA60A9 /* QQLCommentConfig.m */,
+				B56959F21CE583D300AA60A9 /* QQLCommentCell.h */,
+				B56959F31CE583D300AA60A9 /* QQLCommentCell.m */,
+				B56959F51CE597FC00AA60A9 /* QQLCommentMark.h */,
+				B56959F61CE597FC00AA60A9 /* QQLCommentMark.m */,
+			);
+			name = CommentView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,6 +277,7 @@
 				B56959C81CE57CA000AA60A9 /* LaunchScreen.storyboard in Resources */,
 				B56959C51CE57CA000AA60A9 /* Assets.xcassets in Resources */,
 				B56959C31CE57CA000AA60A9 /* Main.storyboard in Resources */,
+				B56959F91CE5A14900AA60A9 /* twitterProfile.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +304,11 @@
 			files = (
 				B56959C01CE57CA000AA60A9 /* ViewController.m in Sources */,
 				B56959BD1CE57CA000AA60A9 /* AppDelegate.m in Sources */,
+				B56959F41CE583D300AA60A9 /* QQLCommentCell.m in Sources */,
+				B56959F11CE57DAB00AA60A9 /* QQLCommentConfig.m in Sources */,
 				B56959BA1CE57CA000AA60A9 /* main.m in Sources */,
+				B56959F71CE597FC00AA60A9 /* QQLCommentMark.m in Sources */,
+				B56959EE1CE57CDF00AA60A9 /* QQLCommentView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
