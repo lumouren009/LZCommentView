@@ -6,19 +6,19 @@
 //  Copyright © 2016年 卢政. All rights reserved.
 //
 
-#import "QQLCommentConfig.h"
+#import "LZCommentConfig.h"
 
 
-@implementation QQLCommentConfig
+@implementation LZCommentConfig
 + (instancetype)defaultConfig {
 	return [[self.class alloc]initWithDefault];
 }
 
 - (instancetype)initWithDefault {
 	if (self = [super init]) {
-		_layout = [[QQLCommentLayout alloc] init];
-		_commentFont = [[QQLCommentFont alloc]initWithFont:[UIFont systemFontOfSize:15] color:[UIColor whiteColor]];
-		_nameFont =  [[QQLCommentFont alloc]initWithFont:[UIFont systemFontOfSize:13] color:[UIColor whiteColor]];
+		_layout = [[LZCommentLayout alloc] init];
+		_commentFont = [[LZCommentFont alloc]initWithFont:[UIFont systemFontOfSize:15] color:[UIColor whiteColor]];
+		_nameFont =  [[LZCommentFont alloc]initWithFont:[UIFont systemFontOfSize:13] color:[UIColor whiteColor]];
 		
 		_disappearDuration = 6.0;
 		_appearDuration = 1.0;
@@ -30,7 +30,7 @@
 @end
 
 
-@implementation QQLCommentLayout
+@implementation LZCommentLayout
 
 - (instancetype)init {
 	if (self = [super init]) {
@@ -55,7 +55,7 @@
 
 @end
 
-@implementation QQLCommentFont
+@implementation LZCommentFont
 
 - (instancetype)initWithFont:(UIFont*)font color:(UIColor*)color {
 	if (self = [super init]) {
@@ -67,11 +67,11 @@
 
 @end
 
-@implementation QQLCommentLabel {
+@implementation LZCommentLabel {
 	CGFloat _maxCommentWidth;
 }
 
-- (instancetype)initWithFrame:(CGRect)frame font:(QQLCommentFont*)font allowLineBreak:(BOOL	)allowLineBreak maxWidth:(CGFloat)maxWidth {
+- (instancetype)initWithFrame:(CGRect)frame font:(LZCommentFont*)font allowLineBreak:(BOOL	)allowLineBreak maxWidth:(CGFloat)maxWidth {
 	if (self = [super initWithFrame:frame]) {
 		_allowLineBreak = allowLineBreak;
 		_maxCommentWidth = maxWidth;

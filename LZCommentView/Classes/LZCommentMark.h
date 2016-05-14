@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface QQLCommentMark : UIView
+@interface LZCommentMark : UIView
 - (instancetype)initWithFrame:(CGRect)frame image:(UIImage*)image;
 @end

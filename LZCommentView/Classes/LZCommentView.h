@@ -8,9 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@class QQLCommentCell;
-@class QQLCommentConfig;
-@interface QQLCommentView : UIView
-- (void)setConfig:(QQLCommentConfig*)config;
+@class LZCommentCell;
+@class LZCommentConfig;
+@interface LZCommentView : UIView
+- (void)setConfig:(LZCommentConfig*)config;
 - (void)addCellwithProfileImage: (UIImage*)profileImage name:(NSString*)name comment:(NSString*)comment;
 @end

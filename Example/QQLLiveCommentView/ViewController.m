@@ -7,9 +7,10 @@
 //
 
 #import "ViewController.h"
-#import "QQLCommentView.h"
+#import <LZCommentView/LZCommentView.h>
+
 @interface ViewController ()
-@property (weak, nonatomic) IBOutlet QQLCommentView *commentView;
+@property (weak, nonatomic) IBOutlet LZCommentView *commentView;
 
 @end
 

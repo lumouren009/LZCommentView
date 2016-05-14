@@ -6,16 +6,16 @@
 //  Copyright © 2016年 卢政. All rights reserved.
 //
 
-#import "QQLCommentView.h"
-#import "QQLCommentConfig.h"
-#import "QQLCommentCell.h"
+#import "LZCommentView.h"
+#import "LZCommentConfig.h"
+#import "LZCommentCell.h"
 
-@interface QQLCommentView ()
-@property (nonatomic, strong) QQLCommentConfig *config;
-@property (nonatomic, strong) NSMutableArray<QQLCommentCell*> *visibleCells;
+@interface LZCommentView ()
+@property (nonatomic, strong) LZCommentConfig *config;
+@property (nonatomic, strong) NSMutableArray<LZCommentCell*> *visibleCells;
 @end
 
-@implementation QQLCommentView
+@implementation LZCommentView
 - (instancetype)initWithFrame:(CGRect)frame {
 	if (self = [super initWithFrame:frame]) {
 		[self commonInit];
@@ -31,7 +31,7 @@
 }
 
 - (void)commonInit {
-	_config = [QQLCommentConfig defaultConfig];
+	_config = [LZCommentConfig defaultConfig];
 	_visibleCells = [NSMutableArray new];
 }
 
@@ -45,11 +45,11 @@
 }
 
 #pragma mark - public
-- (void)setConfig:(QQLCommentConfig *)config {
+- (void)setConfig:(LZCommentConfig *)config {
 	_config = config;
 }
 
-- (void)addCell: (QQLCommentCell*)cell {
+- (void)addCell: (LZCommentCell*)cell {
 	cell.frame = (CGRect) {{0, self.frame.size.height}, cell.frame.size};
 	[_visibleCells addObject:cell];
 	[self addSubview:cell];
@@ -57,7 +57,7 @@
 	__weak __typeof(self) weakSelf = self;
 	[UIView animateWithDuration:_config.appearDuration delay:0 options:UIViewAnimationOptionCurveEaseOut animations:^{
 		CGFloat dy = cell.frame.size.height + weakSelf.config.layout.cellSpace;
-		for (QQLCommentCell *cell in self.visibleCells) {
+		for (LZCommentCell *cell in self.visibleCells) {
 			CGAffineTransform origin = cell.transform;
 			CGAffineTransform  transform = CGAffineTransformMakeTranslation(0, -dy);
 			cell.transform = CGAffineTransformConcat(origin, transform);
@@ -78,7 +78,7 @@
 	NSCAssert(_config, @"config property should not be nil");
 	
 	CGRect rect = CGRectZero;
-	QQLCommentCell *cell = [[QQLCommentCell alloc]initWithFrame:rect profileImage:profileImage name:name comment:comment config:_config];
+	LZCommentCell *cell = [[LZCommentCell alloc]initWithFrame:rect profileImage:profileImage name:name comment:comment config:_config];
 	[self addCell:cell];
 }
 

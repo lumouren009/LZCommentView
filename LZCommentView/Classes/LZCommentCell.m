@@ -6,14 +6,14 @@
 //  Copyright © 2016年 卢政. All rights reserved.
 //
 
-#import "QQLCommentCell.h"
-#import "QQLCommentConfig.h"
-#import "QQLCommentMark.h"
+#import "LZCommentCell.h"
+#import "LZCommentConfig.h"
+#import "LZCommentMark.h"
 
 
-@implementation QQLCommentCell
+@implementation LZCommentCell
 
-- (instancetype)initWithFrame:(CGRect)frame profileImage:(UIImage*)image name:(NSString*)name comment:(NSString*)comment config:(QQLCommentConfig*)config {
+- (instancetype)initWithFrame:(CGRect)frame profileImage:(UIImage*)image name:(NSString*)name comment:(NSString*)comment config:(LZCommentConfig*)config {
 	NSParameterAssert(config);
 	
 	if (self = [super initWithFrame:frame]) {
@@ -21,7 +21,7 @@
 		CGSize markSize = (CGSize){config.layout.markWidth, config.layout.markWidth};
 		CGRect markRect = (CGRect){{config.layout.markLeftPadding, 0}, markSize};
 		
-		self.mark = [[QQLCommentMark alloc]initWithFrame:markRect image:image];
+		self.mark = [[LZCommentMark alloc]initWithFrame:markRect image:image];
 		
 		CGPoint namePos = CGPointMake(self.mark.frame.origin.x + self.mark.frame.size.width + config.layout.markNameMargin, config.layout.padding);
 		
@@ -42,7 +42,7 @@
 		CGPoint commentPos = CGPointMake(self.nameLabel.frame.origin.x + self.nameLabel.frame.size.width + config.layout.nameCommentMargin, config.layout.padding);
 		
 		CGFloat maxCommentWidth = config.layout.maxCommentWidth;
-		self.commentLabel = [[QQLCommentLabel alloc]initWithFrame:(CGRect){commentPos, CGSizeZero} font:config.commentFont allowLineBreak:config.layout.allowLineBreak maxWidth:maxCommentWidth];
+		self.commentLabel = [[LZCommentLabel alloc]initWithFrame:(CGRect){commentPos, CGSizeZero} font:config.commentFont allowLineBreak:config.layout.allowLineBreak maxWidth:maxCommentWidth];
 		self.commentLabel.text = comment;
 		[self.commentLabel sizeToFit];
 		
@@ -52,7 +52,7 @@
 	return self;
 }
 
-- (void)setupView:(UIImage*)image name:(NSString*)name comment:(NSString*)comment config:(QQLCommentConfig*)config {
+- (void)setupView:(UIImage*)image name:(NSString*)name comment:(NSString*)comment config:(LZCommentConfig*)config {
 	self.backgroundColor = config.layout.cellBackgroundColor;
 	self.layer.cornerRadius = 5;
 	[self setClipsToBounds:YES];

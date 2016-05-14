@@ -6,9 +6,9 @@
 //  Copyright © 2016年 卢政. All rights reserved.
 //
 
-#import "QQLCommentMark.h"
+#import "LZCommentMark.h"
 
-@implementation QQLCommentMark {
+@implementation LZCommentMark {
 	UIImageView *_imageView;
 }
 
